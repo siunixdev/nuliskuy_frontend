@@ -1,0 +1,193 @@
+body {
+  background-color: rgb(246, 246, 246);
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Horizintal menu scroll */
+.menu-item {
+  padding: 0 20px;
+}
+
+.scroll-menu-arrow {
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* .loginLeftBackground {
+  background-image: url('images/background-left.png');
+  background-size: 250px;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: left top;
+} */
+
+/* .loginRightBackground {
+  background-image: url('images/background-right.png');
+  background-size: 250px;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: right top;
+} */
+
+/* .registerLeftBackground {
+  background-image: url('images/login-background-left.png');
+  background-size: 250px;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: left top;
+} */
+
+/* .registerRightBackground {
+  background-image: url('images/login-background-right.png');
+  background-size: 250px;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: right top;
+} */
+
+.right-pupolar {
+  display: block;
+}
+
+.featured-arrow {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.popular-title {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #505050;
+  line-height: 0px;
+}
+
+.title-popular-medium {
+  line-height: 0px;
+}
+
+.popular-author {
+  margin-top: 0px;
+}
+
+.post-date {
+  color: gray;
+}
+
+.backgroud-popular-list {
+  background-size : cover;
+  background-position : center;
+  width: 30%;
+}
+
+.featured-backgroud-popular-list {
+  background-size : cover;
+  background-position : center;
+  width: 30%;
+}
+
+.backgroud-by-author {
+  background-size : cover;
+  background-position : center;
+  width: 100%;
+  height: 300px;
+}
+
+.backgroud-popular-right {
+  background-size : cover;
+  background-position : center;
+  width: 100%;
+  height: 150px;
+}
+
+.category-desc-secondary {
+  display: none;
+}
+
+.right-category-first-column {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.quotes {
+  padding-left: 130px;
+  padding-right: 130px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .right-pupolar {
+    display: none;
+  }
+
+  .category-desc {
+    display: none;
+  }
+
+  .featured-arrow {
+    justify-content: flex-start;
+  }
+
+  .backgroud-popular-list {
+    width: 100%;
+  }
+ 
+  .featured-backgroud-popular-list {
+    width: 50%;
+  }
+
+  .category-desc-secondary {
+    display: block;
+  }
+
+  .right-category-first-column {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .category-header {
+    font-size: 30px !important;
+  }
+
+  .quotes {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
